@@ -18,6 +18,17 @@
 
 本工程采用 Qt6 编译， Qt5 也支持，需要自己设置一下（如果不知道怎么编译，直接用 [`.exe`]() 文件即可）
 
+#### 四、Linux 下编译或打包
+
+Linux 下编译及安装桌面启动文件：
+
+```bash
+qmake6 source/firmware_packager.pro
+sudo install -Dm755 source/firmware_packager /usr/bin/firmware-packager
+sudo install -Dm644 source/images/icon.png /usr/share/icons/hicolor/192x192/apps/firmware-packager.png
+sudo install -Dm644 source/desktop/com.gitee.dinohaw.firmware-packager.metainfo.xml /usr/share/metainfo/com.gitee.dinohaw.firmware-packager.metainfo.xml
+sudo install -Dm644 source/desktop/com.gitee.dinohaw.firmware-packager.desktop /usr/share/applications/com.gitee.dinohaw.firmware-packager.desktop
+```
 
 #### 参与贡献
 
