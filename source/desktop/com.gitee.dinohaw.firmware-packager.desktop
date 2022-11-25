@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=firmware-packager
+Comment=mOTA 组件的 bin 固件打包器，生成 fpk 固件包
+Categories=Development;Electronics;
+
+Icon=firmware-packager.png
+Exec=firmware-packager
+Terminal=false

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.gitee.dinohaw.firmware_packager</id>
+
+  <name>firmware-packager</name>
+  <summary>mOTA 组件的 bin 固件打包器，生成 fpk 固件包</summary>
+
+  <metadata_license>MIT</metadata_license>
+  <project_license>Apache-2.0</project_license>
+
+  <description>
+    <p>
+      mOTA 组件的 bin 固件打包器，生成 fpk 固件包
+    </p>
+  </description>
+
+  <launchable type="desktop-id">com.gitee.dinohaw.firmware_packager.desktop</launchable>
+</component>
