@@ -1,15 +1,21 @@
 # firmware_packager
 
-#### 介绍
-bin 固件打包器
+### 介绍
+这是一个 bin 固件打包器， 为 bin 固件附上一个 fpk 表头（[《fpk固件包表头信息》](https://gitee.com/DinoHaw/firmware_packager/blob/master/document/fpk%E5%9B%BA%E4%BB%B6%E5%8C%85%E8%A1%A8%E5%A4%B4%E4%BF%A1%E6%81%AF.pdf)），该打包器是 [mOTA](https://gitee.com/DinoHaw/mOTA) 组件的一部分。
 
-#### 软件架构
-软件架构说明
+### 实现的功能
+#### 固件打包部分
+1.  
+![fpk固件打包器](https://gitee.com/DinoHaw/mOTA/blob/master/image/fpk固件打包器.png)
+
+#### 固件解析部分
+![fpk固件打包器_解析](https://gitee.com/DinoHaw/mOTA/blob/master/image/fpk固件打包器_解析.png)
 
 
-#### 安装教程
 
-1.  xxxx
+#### 编译环境
+
+1.  本工程采用 Qt6 编译， Qt5 也支持，需要自己设置一下（如果不知道怎么编译，直接用 [`.exe`]() 文件即可）
 2.  xxxx
 3.  xxxx
 
@@ -25,13 +31,3 @@ bin 固件打包器
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
